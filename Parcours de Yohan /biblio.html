@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
    
 <div class="Sections">
     <a href="index.html" class="Sections__left section-btn" class="section-btn">Statistiques</a>
-    <a href="biblio.html" class="Sections__right section-btn" class="section-btn" >Bibliothéque</a>
+    <a href="biblio.html" class="Sections__right section-btn" class="section-btn" >Bibliothèque</a>
 </div>
     
                            
@@ -25,20 +26,42 @@
     
 <div class=Title_3>Ma bibliothèque</div>
 <div class="Sections-livre">
-    <a href="#" class="Sections__left section-btn" class="section-btn">Tous</a>
-    <a href="#" class="Sections__middle section-btn" class="section-btn" >Lus</a>
-     <a href="#" class="Sections__right section-btn" class="section-btn" >Non-lus</a>
+    <a href="#" class="Sections__left section-btn" data-book="all">Tous</a>
+    <a href="#" class="Sections__middle section-btn" data-book="read" >Lus</a>
+     <a href="#" class="Sections__right section-btn" data-book="nonread" >Non-lus</a>
 </div>
-    
- <div> <img  class="image__livre livre-sarah" src="images/sarah.png" alt="couverture du livre elle s'appelait Sarah"></div>
- <div> <img  class="image__livre livre-rose" src="images/rose.png" alt="couverture du livre Rose"></div>   
- <div> <img  class="image__livre livre-desolation" src="images/desolation.png" alt="couverture du livre Desolation road"></div>
- <div> <img  class="image__livre livre-histoirevraie" src="images/histoirevraie.png" alt="couverture du livre Des histoires vraies"></div>
- <div> <img  class="image__livre livre-oscar" src="images/oscar.png" alt="couverture du livre Oscar Wild"></div>
-    
-<a href="#"><button class="btn--primary btn--full--width">Ajouter un livre</button></a>
-    
 
+<section class="readlist">
+
+     <div class="book read"> <img  class="image__livre livre-sarah" src="images/sarah.png" alt="couverture du livre elle s'appelait Sarah"></div>
+     <div class="book nonread"> <img  class="image__livre livre-rose" src="images/rose.png" alt="couverture du livre Rose"></div>   
+     <div class="book read"> <img  class="image__livre livre-desolation" src="images/desolation.png" alt="couverture du livre Desolation road"></div>
+     <div class="book nonread"> <img  class="image__livre livre-histoirevraie" src="images/histoirevraie.png" alt="couverture du livre Des histoires vraies"></div>
+     <div class="book read"> <img  class="image__livre livre-oscar" src="images/oscar.png" alt="couverture du livre Oscar Wild"></div>
+
+    <a href="#"><button class="btn--primary btn--full--width">Ajouter un livre</button></a>
+
+</section>
+    
+<script>
+    $(document).ready(function(){
+       
+        $('.Sections-livre a').click(function(){
+            var cible = $(this).attr('data-book');
+            if(cible == "all"){
+                $('.book').addClass('open');
+            }else if(cible == "read"){
+                $('.book').removeClass('open');
+                $('.read').addClass('open');
+            }else if(cible == "nonread"){
+                $('.book').removeClass('open');
+                $('.nonread').addClass('open');
+            }
+            
+            return false;
+        });
+    });
+</script>
 
 </body>
 </html>

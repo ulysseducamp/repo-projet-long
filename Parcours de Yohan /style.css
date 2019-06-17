@@ -10,10 +10,10 @@
   
     --ic-color: #AAAAAA;
 
-      --primary-color: #DF5148;
-      --secondcouleur: #FFFFFF;
-      --troisiemecouleur: #444444;
-      --quatriemecouleur:#D3D3D3;
+    --primary-color: #DF5148;
+    --secondcouleur: #FFFFFF;
+    --troisiemecouleur: #444444;
+    --quatriemecouleur:#D3D3D3;
   }
 
 body{
@@ -46,6 +46,7 @@ body{
 
 
 /* Bouton et liens */ 
+
 .lien--btn{
   color:var(--primary-color);
   margin-left:2rem;
@@ -158,6 +159,20 @@ margin: 0.25rem;
 
 .image__livre{
     width:100px;
+    display:flex; 
+    flex-direction: column;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.Section-livre{
+    
+}
+.book{
+    display: none;
+}
+.book.open{
+    display: block;
 }
 
 
