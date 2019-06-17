@@ -44,6 +44,8 @@ body{
   float: right;
 }
 
+
+/* Bouton et liens */ 
 .lien--btn{
   color:var(--primary-color);
   margin-left:2rem;
@@ -149,6 +151,13 @@ margin: 0.25rem;
 .imgtemps{
     width:80px;
     
+}
+
+
+/* Mon espace bibliothèque */ 
+
+.image__livre{
+    width:100px;
 }
 
 
