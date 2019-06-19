@@ -99,6 +99,30 @@ margin: 0.25rem;
 }
 
 
+.btn--secondary{
+  background-color:var(--secondcouleur);
+  font-family:'Varela Round', sans-serif;
+  color:var(--primary-color);
+  font-size: 14px;
+  padding: 0.5rem; 
+  border-radius: 10px; 
+  border:var(--primary-color) solid 1px;
+  margin: 0.25rem;
+  margin-left:2rem;
+}
+
+.btn--secondary:active{
+  background-color:var(--secondcouleur);
+  font-family:'Varela Round', sans-serif;
+  color:var(--troisiemecouleur);
+  font-size: 14px;
+  padding: 0.5rem; 
+  border-radius: 10px; 
+  border:var(--troisiemecouleur) solid 1px;
+  margin: 0.25rem;
+}
+
+
 /*Image de la page mon espace */ 
 
 .image1{
@@ -235,6 +259,28 @@ span{
 
 .simul{
     width:300px;
+}
+
+
+/* Livre en cours */ 
+
+.histoirevraie{
+    width:150px;
+    margin-left:5rem;
+}
+
+.information--livre{
+    display:flex; 
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: color: var(--texte_color); 
+}
+
+.resum{
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 12px;
+    
 }
 
 /* SORTE DE GUI */
