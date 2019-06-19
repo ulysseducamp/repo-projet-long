@@ -15,6 +15,11 @@
     --troisiemecouleur: #444444;
     --quatriemecouleur:#D3D3D3;
   }
+
+
+body{
+    padding:28px;
+}
   
 
 .top{
