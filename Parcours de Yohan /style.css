@@ -165,9 +165,7 @@ margin: 0.25rem;
     margin-bottom:1rem;
 }
 
-.Section-livre{
-    
-}
+
 .book{
     display: none;
 }
@@ -175,6 +173,50 @@ margin: 0.25rem;
     display: block;
 }
 
+.text{
+    position:absolute;
+    display: flex; 
+    flex-direction:column;
+    margin-left:7rem;
+    margin-top:-9rem;
+    font-family:'Varela Round', sans-serif;
+    font-size: 13px;
+    color: var(--troisiemecouleur);
+    
+}
+
+.livre--lien{
+    position:absolute;
+    display: flex; 
+    flex-direction:column;
+    margin-left:7rem;
+    margin-top:-3rem;
+    
+}
+
+.Sections-livre{
+    font-family:'Varela Round', sans-serif; 
+    font-size:15px;
+    margin-top:3rem;
+    margin-left:5rem;
+}
+
+
+.Sections__left{
+    border-right:var(--troisiemecouleur) solid 1px;
+    color: var(--troisiemecouleur);
+    padding:0.25rem;
+ 
+}
+
+.Sections__middle{
+    border-left:var(--secondcouleur) solid 1px;
+    border-right:var(--troisiemecouleur) solid 1px;
+    color: var(--troisiemecouleur);
+    padding:0.5rem;
+
+   
+}
 
 /* SORTE DE GUI */
 
@@ -196,6 +238,7 @@ margin: 0.25rem;
       font-family: 'Varela Round', sans-serif;
       font-size: var(--title_size_h3);;
       color: var(--texte_color);
+      margin-top:2rem;
     }
     
   .Title_4 {
