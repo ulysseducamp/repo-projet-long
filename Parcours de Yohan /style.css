@@ -222,6 +222,21 @@ margin: 0.25rem;
 
 /* Mes lectures simultanées */ 
 
+.text--simul{
+    display: flex; 
+    font-family:'Varela Round', sans-serif;
+    font-size: 13px;
+    color: var(--troisiemecouleur);
+}
+
+span{
+    color:var(--primary-color);
+}
+
+.simul{
+    width:300px;
+}
+
 /* SORTE DE GUI */
 
   .Title_1 {
