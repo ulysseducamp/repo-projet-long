@@ -99,7 +99,7 @@
     height: auto ;
     width: 100%;
     margin-bottom: 28px;
-    padding: 0 15%;  
+    padding: 0 20%;  
     overflow-x: scroll;
 }
 
@@ -151,3 +151,24 @@
     background-color: var(--block-color);
     z-index: -1;
 }
+
+.call-to-action__question {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.call-to-action__text{
+    text-align: center;
+}
+
+.positionneur{
+    position: relative;
+}
+
+.positionneur__bulles{
+    position: absolute;
+    top: -80px;
+    width: 100%;
+}
+
+
