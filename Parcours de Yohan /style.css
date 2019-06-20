@@ -328,6 +328,65 @@ left: 0;
 }
 
 
+/* Formulaire */ 
+
+.formulaire{
+	position: relative;
+}
+
+.formulaire--select {
+	position: relative; 
+	background-color: white;
+	border: #D6EFF8 1px solid;
+    border-radius: 8px; 
+	margin: 0 0 1.5em 0;
+  
+
+}
+
+.formulaire--select select {
+	appearance: none;
+	width: 130%; 
+	height: auto;
+	border: 0; 
+	margin: 0;
+	padding: 0.5rem;
+	border-radius: 6px;
+    font-family: 'Varela Round';
+    font-size: 14px;
+    border-width: 1px; 
+    appearance: none; 
+	
+}
+
+
+.formulaire--select::after {
+	content: '';
+	position: absolute;
+	top: 50%; 
+	margin-top: -3px;
+	right: .75em;  
+	display: block; 
+	border-color: transparent;
+	border-top-color: #444; 
+	border-width: 6px;
+	border-style: solid;
+	pointer-events: none;
+}
+
+label{
+  font-family:"Varela Round";
+  font-size:14px;
+  display: flex;  
+  text-align: left;
+  margin-bottom:1rem;
+}
+
+.rappel{
+    font-family: 'Varela Round';
+    margin-right:9rem;
+    
+}
 
 /* SORTE DE GUI */
 
