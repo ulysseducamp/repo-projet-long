@@ -29,15 +29,13 @@
 
 .background-suggestions_text{
   text-align: center;
-  margin: 240px 30px 0 30px;
+  margin: 203px 30px 0 30px;
 }
 
 .background-suggestions__container-button{
   display: flex;
   justify-content: center;
-}
-
-.background-suggestions{
+  margin: 25px;
 }
 
 /*carrousel*/
@@ -45,7 +43,7 @@
 .container-suggestions{
   position: relative;
   background: transparent;
-  height: 430px;
+  height: 400px;
 }
 
 .background-suggestions{
@@ -57,7 +55,8 @@
   margin-right: auto;
   background: var(--block-color);
   width: 300px;
-  height: 430px;
+  height: 400px;
+  border-radius: 5px;
 }
 
 .container-carrousel{
@@ -69,33 +68,21 @@
 }
 
 .container-carrousel__wider{
-  width: 700px;
+  width: 900px;
   display: flex;
   flex-direction: row;
   overflow-x: scroll;
 }
 
-.container-carrousel__wider__book {
-  background: black;
-  height: 150px;
+.container-carrousel__book {
+  background-size: cover;
   width: 120px;
+  height: 160px;
   margin-right: 10px;
 }
 
-
-
-
-
-
 /*fin du code pour le carrousel*/
 
-.block{
-  width: 100%;
-  background: var(--block-color);
-  text-align: center;
-  padding: 30px;
-  padding-bottom: 0px;
-}
 
 
 /*search block */

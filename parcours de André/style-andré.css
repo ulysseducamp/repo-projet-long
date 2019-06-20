@@ -1,0 +1,26 @@
+
+
+/* PAGE DÉCOUVERTE */
+/*search block */
+.search-bar{
+  background-color: var(--block-color);
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 36px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+.search-bar .texte-courant{
+  color: var(--ic-color);
+  margin-bottom: 0px;
+}
+
+.search-bar .ic-search_unactive{
+  margin: 6px;
+}
+
+.search-bar__block{
+  display: inline-block;
+  vertical-align: middle;
+}
+/**/
