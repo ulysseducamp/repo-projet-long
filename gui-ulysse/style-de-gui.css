@@ -18,6 +18,11 @@
   --primary-color: #DF5148;
   --block-color: #F2F2F2;
   --background-color: #FAFAFA;
+
+  --secondcouleur: #FFFFFF;
+  --troisiemecouleur: #444444;
+  --quatriemecouleur:#D3D3D3;
+  --transparent: transparent;
 }
 
 /* code page découverte */
@@ -25,6 +30,11 @@
 .background-suggestions_text{
   text-align: center;
   margin: 240px 30px 0 30px;
+}
+
+.background-suggestions__container-button{
+  display: flex;
+  justify-content: center;
 }
 
 .background-suggestions{
@@ -193,7 +203,6 @@
   font-size: var(--title_size_h4);
   color: var(--texte_color);
   margin-bottom: 18px;
-
 }
 
 .ic-disco_unactive {
@@ -345,15 +354,13 @@ a:active{
 }
 
 .btn--secondary{
-  background-color:var(--secondcouleur);
+  background-color:var(--transparent);
   font-family:'Varela Round', sans-serif;
   color:var(--primary-color);
   font-size: 14px;
   padding: 0.5rem; 
   border-radius: 10px; 
   border:var(--primary-color) solid 1px;
-  margin: 0.25rem;
-  margin-bottom: 18px;
 }
 
 .btn--secondary:active{
