@@ -253,7 +253,7 @@ margin: 0.25rem;
     color: var(--troisiemecouleur);
 }
 
-span{
+.rouge{
     color:var(--primary-color);
 }
 
@@ -282,6 +282,52 @@ span{
     font-size: 12px;
     
 }
+
+/* Livre en cours notification */
+
+.ecrangris{
+opacity: 0.2;
+/*background-color: red;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0;
+*/
+
+}
+
+.notif{
+  padding:2rem;
+  width:230px; 
+  background-color:whitesmoke;
+  position: absolute; 
+  margin-top:8rem;
+  opacity: 1;
+}
+
+.Lexy{
+  font-family: 'Varela Round';
+  font-size:14px; 
+  text-align:center; 
+}
+
+.span--typo{
+  font-family: 'Varela Round';
+  font-size:12px; 
+  text-align:center; 
+}
+
+.bleu{
+  font-family: 'Varela Round';
+  font-size:14px; 
+  text-align:center; 
+  text-decoration:none; 
+  color: blue; 
+  margin-left:3rem; 
+}
+
+
 
 /* SORTE DE GUI */
 
