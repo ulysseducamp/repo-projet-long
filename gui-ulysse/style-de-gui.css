@@ -18,74 +18,16 @@
   --primary-color: #DF5148;
   --block-color: #F2F2F2;
   --background-color: #FAFAFA;
-}
 
-/* code page découverte */
-
-.background-suggestions_text{
-  text-align: center;
-  margin: 240px 30px 0 30px;
-}
-
-.background-suggestions{
-}
-
-/*carrousel*/
-
-.container-suggestions{
-  position: relative;
-  background: transparent;
-  height: 430px;
-}
-
-.background-suggestions{
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background: var(--block-color);
-  width: 300px;
-  height: 430px;
-}
-
-.container-carrousel{
-  position: absolute;
-  width: 100%;
-  padding: 20px;
-  background: transparent;
-  overflow-x: scroll;
-}
-
-.container-carrousel__wider{
-  width: 700px;
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-}
-
-.container-carrousel__wider__book {
-  background: black;
-  height: 150px;
-  width: 120px;
-  margin-right: 10px;
+  --secondcouleur: #FFFFFF;
+  --troisiemecouleur: #444444;
+  --quatriemecouleur:#D3D3D3;
+  --transparent: transparent;
 }
 
 
 
 
-
-
-/*fin du code pour le carrousel*/
-
-.block{
-  width: 100%;
-  background: var(--block-color);
-  text-align: center;
-  padding: 30px;
-  padding-bottom: 0px;
-}
 
 
 /*search block */
@@ -193,7 +135,6 @@
   font-size: var(--title_size_h4);
   color: var(--texte_color);
   margin-bottom: 18px;
-
 }
 
 .ic-disco_unactive {
@@ -345,15 +286,13 @@ a:active{
 }
 
 .btn--secondary{
-  background-color:var(--secondcouleur);
+  background-color:var(--transparent);
   font-family:'Varela Round', sans-serif;
   color:var(--primary-color);
   font-size: 14px;
   padding: 0.5rem; 
   border-radius: 10px; 
   border:var(--primary-color) solid 1px;
-  margin: 0.25rem;
-  margin-bottom: 18px;
 }
 
 .btn--secondary:active{

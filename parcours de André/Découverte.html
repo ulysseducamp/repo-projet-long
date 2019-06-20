@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../gui-ulysse/style-de-gui.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style-andré.css">
+    <link rel="stylesheet" href="style-andré-gui.css">
+    <title>Découverte</title>
 </head>
 <body>
+        <div class="margin28px">
         <H1 class="Title_1">Découverte</H1>
 
         <div class="search-bar">
@@ -17,19 +19,66 @@
                 <div class="search-bar__block">
                 <div class="texte-courant">Rechercher</div>
                 </div>
-        </div>
-
+        </div> 
         <H2 class="Title_2">Dernières sorties</H2>
-
-        <div class="block">
-            <div class="block__texte texte-courant">Découvrez les derniers livres sortis, certains disponible en avant-première sur Lexy. Vous pourrez aussi donner votre avis sur des ouvrages encore en phase de test et récolter des codes de réduction. </div>
-            <button class="block__btn btn--secondary">Découvrir</button>
         </div>
 
+        <div class="container-suggestions">
+                <div class="background-suggestions">
+                    <p class="background-suggestions_text texte-courant" >Découvrez les derniers livres sortis, certains disponible en avant-première sur Lexy. Vous pourrez aussi donner votre avis sur des ouvrages encore en phase de test et récolter des codes de réduction. </p>
+                    <div class="background-suggestions__container-button">
+                        <button class="background-suggestions__btn btn--secondary">Découvrir</button>
+                    </div>
+                </div>
+                <div class="container-carrousel">
+                    <div class="container-carrousel__wider">
+                        <div class="container-carrousel__book" style="background-image:url(img/bonheur.jpg)"></div>
+                        <div class="container-carrousel__book" style="background-image:url(img/disparition.jpg)"></div>
+                        <div class="container-carrousel__book" style="background-image:url(img/fille.jpg)"></div>
+                        <div class="container-carrousel__book" style="background-image:url(img/aristophane.jpg)"></div>
+                        <div class="container-carrousel__book" style="background-image:url(img/changer-leau.jpg)"></div>
+                        <div class="container-carrousel__book" style="background-image:url(img/lenfant.jpg)"></div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="margin28px">      
         <H2 class="Title_2">Suggestions</H2>
-        <div class="block">
-                <div class="block__texte texte-courant">Découvrez les derniers livres sortis, certains disponible en avant-première sur Lexy. Vous pourrez aussi donner votre avis sur des ouvrages encore en phase de test et récolter des codes de réduction. </div>
-                <button class="block__btn btn--secondary">Découvrir</button>
         </div>
+
+        <div class="container-sugg">
+                <div class="container-sugg__wider">
+                        <div class="container-sugg__group">
+                                <div class=remplissage></div>
+                        </div>
+                        <div class="container-sugg__group">
+                                <div class=remplissage></div>
+                        </div>
+                        <div class="container-sugg__group">
+                                <div class=remplissage></div>
+                        </div>
+                        <div class="container-sugg__group">
+                                <div class=remplissage></div>
+                        </div>
+                </div>
+        </div>
+
+
+        <div class="navbar">
+                <a href="#" class="container">
+                    <div class="ic ic-disco_active"></div>
+                </a>
+                <a href="#" class="container">
+                    <div class="ic ic-read_unactive"></div>
+                </a>
+                <a href="#" class="container">
+                    <div class="ic ic-perso_unactive"></div>
+                </a>
+                <a href="#" class="container">
+                    <div class="ic ic-param_unactive"></div>
+                </a>
+        </div>
+
+        
 </body>
 </html>
