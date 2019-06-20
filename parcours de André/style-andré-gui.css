@@ -52,6 +52,7 @@
     font-family: 'Varela Round', sans-serif;
     font-size: var(--title_size_h2);
     color: var(--texte_color);
+    margin-bottom: 12px;
   }
   
 .Title_3 {
@@ -85,12 +86,6 @@
 
 
 /*BOUTONS de Marie*/
-:root{
-    --primary-color: #DF5148;
-    --secondcouleur: #FFFFFF;
-    --troisiemecouleur: #444444;
-  }
-  
   /* ajout Ulysse */
     .section-btn {
     text-decoration: none; 
