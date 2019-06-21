@@ -436,6 +436,62 @@ article
   width:337px;
   margin-left:1rem;
 }
+
+
+.focus{
+   width:300px; 
+}
+
+.lien-focus{
+  margin-left:6rem;
+}
+
+
+/* Text */ 
+
+
+.animtext{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  padding: 2rem;
+  overflow: auto;
+  transition: all 1s
+}
+
+.reduced {
+  position: relative;
+  transform: scale(.8);
+  transform-origin: middle;
+  height: 600px;
+  overflow: hidden;
+  margin-top:-3rem;
+} 
+
+
+.text--reduce{
+  background-color:var(--secondcouleur);
+  font-family:'Varela Round', sans-serif;
+  color:var(--primary-color);
+  font-size: 14px;
+  padding: 0.5rem; 
+
+  border:var(--primary-color) solid 1px;
+  margin: 0.25rem;
+
+}
+
+.fleche{
+  display:block; 
+  position:absolute; 
+  margin-left:15rem; 
+  margin-top: -1rem; 
+}
+
+
 /* SORTE DE GUI */
 
   .Title_1 {
