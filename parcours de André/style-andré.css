@@ -8,6 +8,50 @@
       margin-top: 28px;
   }
 
+
+/* PAGE du TEST */
+
+.header__title, .question, .indication, .bottom__avancement {
+  text-align: center;  
+}
+
+.bottom__avancement{
+  margin-bottom: 5px;
+}
+
+.container-bulles__wider{
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bottom__progress-bar{
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.container-bulles-1_image {
+  height: 390px;
+  background:url(img/svgs/bulles-1.svg) no-repeat;
+}
+
+.container-bulles-1_image:active {
+  background:url(img/svgs/bulles-2.svg) no-repeat;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 78px;
+  left: 0;
+  right: 0;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+
+
 /* PAGE DÉCOUVERTE */
 
 .margin28px{
@@ -170,5 +214,7 @@
     top: -80px;
     width: 100%;
 }
+
+
 
 
