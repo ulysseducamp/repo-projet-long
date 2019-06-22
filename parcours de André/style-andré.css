@@ -8,6 +8,59 @@
       margin-top: 28px;
   }
 
+/*résultat*/
+
+.results-introduction{
+  margin-bottom: 20px;
+}
+
+.result-container{
+  margin-top: 48px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: ;
+  
+}
+
+.tog-block{
+  position: relative;
+  border-top: solid 2px var(--ic-color);
+  padding: 18px 0 18px 0  ;
+}
+
+.tog-block__visible{
+  height: 170px;
+}
+
+.tog-block__book{
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.result-container__drawing{
+  width: 50%;
+}
+
+.tog-block__ic-tog{
+  position: absolute;
+  right: 0;
+  top: 18px;
+
+}
+
+.Title_3_red {
+  font-family: 'Varela Round', sans-serif;
+    font-size: var(--title_size_h3);
+    color: var(--primary-color);
+}
+
+.tog-block__hidden{
+  width: 100%;
+}
+
+
 /* CHOIX DU MODE DE LECTURE */
 
 .mode-indication{
@@ -249,7 +302,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 160px;
+    height: 240px;
     margin-bottom: 12px;
 
 }

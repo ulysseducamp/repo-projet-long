@@ -79,3 +79,8 @@ a:active{
   font-size: 16px;
 }
  
+.link_primary{
+  color:var(--primary-color);
+  font-family:'Varela Round', sans-serif;
+  font-size: 16px;
+}

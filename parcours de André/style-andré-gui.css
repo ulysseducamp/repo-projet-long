@@ -133,6 +133,16 @@
   a:active{
     color:var(--troisiemecouleur);
   }
+
+  .link_primary{
+    color:var(--primary-color);
+    font-family:'Varela Round', sans-serif;
+    font-size: 16px;
+  }
+
+  .link_primary:active{
+    color:var(--troisiemecouleur);
+  }
   
   .btn--secondary{
     background-color:var(--transparent);
