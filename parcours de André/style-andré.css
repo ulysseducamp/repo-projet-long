@@ -41,6 +41,10 @@
   padding: 18px 0 18px 0  ;
 }
 
+.tog-block__title, .tog-block__author{
+  margin-right: 34px;
+}
+
 .tog-block__visible{
   height: 170px;
 }
@@ -366,6 +370,10 @@
 
 .call-to-action__text{
     text-align: center;
+    margin-bottom: 18px;
+}
+.call-to-action__button{
+  z-index: 5;
 }
 
 .positionneur{
