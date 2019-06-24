@@ -37,3 +37,131 @@
     text-align: center;
     color: red;
   }
+
+
+  /* code nav-bar */
+  /*nav-bar*/
+.navbar
+{
+  background-color: var(--background-color);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.container{
+  width: 24%;
+  display: inline-block;
+}
+
+.ic{
+  width: 26px;
+  margin: 15px auto;
+}
+
+/*code icônes*/
+.ic-disco_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") 0px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-disco_active {
+  background: transparent
+  url("img/ic-sprite.svg") 0px -54px;
+  width: 27px;
+  height: 27px; 
+}
+
+.ic-read_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") -27px 0px;
+  width: 26px;
+  height: 26px;
+}
+.ic-read_active {
+  background: transparent
+  url("img/ic-sprite.svg") -27px -54px;
+  width: 26px;
+  height: 26px; 
+}
+
+.ic-search_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") -54px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-search_active {
+  background: transparent
+  url("img/ic-sprite.svg") -54px -54px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-perso_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") -81px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-perso_active {
+  background: transparent
+  url("img/ic-sprite.svg") -81px -54px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-tog-open_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") 0px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-tog-open_active {
+  background: transparent
+  url("img/ic-sprite.svg") 0px -81px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-tog-closed_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") -27px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-tog-closed_active {
+  background: transparent
+  url("img/ic-sprite.svg") -27px -81px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-prev_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") -54px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-prev_active {
+  background: transparent
+  url("img/ic-sprite.svg") -54px -81px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-param_unactive {
+  background: transparent
+  url("img/ic-sprite.svg") -81px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-param_active {
+  background: transparent
+  url("img/ic-sprite.svg") -81px -81px;
+  width: 26px;
+  height: 26px;
+}
+
+/*fin code icônes*/
