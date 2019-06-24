@@ -378,6 +378,7 @@
 
 .positionneur{
     position: relative;
+    z-index: -5;
 }
 
 .positionneur__bulles{
