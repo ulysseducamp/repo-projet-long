@@ -1,0 +1,86 @@
+:root{
+  --primary-color: #DF5148;
+  --secondcouleur: #FFFFFF;
+  --troisiemecouleur: #444444;
+}
+
+
+.btn--primary{
+background-color:var(--primary-color); 
+font-family:'Varela Round', sans-serif;
+color: var(--secondcouleur);
+font-size: 14px;
+padding: 0.5rem; 
+border-radius: 10px; 
+border:var(--primary-color) solid 1px;
+margin: 0.25rem; 
+}
+
+.btn--full--width{
+  width: 100%; 
+}
+
+.btn--primary:active{
+background-color:var(--secondcouleur); 
+font-family:'Varela Round', sans-serif;
+color:var(--primary-color);
+font-size: 14px;
+padding: 0.5rem; 
+border-radius: 10px; 
+border:var(--primary-color) solid 1px;
+border-width: 2px;
+margin: 0.25rem;
+}
+
+
+a{
+  color:var(--primary-color);
+}
+
+a:active{
+  color:var(--troisiemecouleur);
+}
+
+.btn--secondary{
+  background-color:var(--secondcouleur);
+  font-family:'Varela Round', sans-serif;
+  color:var(--primary-color);
+  font-size: 14px;
+  padding: 0.5rem; 
+  border-radius: 10px; 
+  border:var(--primary-color) solid 1px;
+  margin: 0.25rem;
+}
+
+.btn--secondary:active{
+  background-color:var(--secondcouleur);
+  font-family:'Varela Round', sans-serif;
+  color:var(--troisiemecouleur);
+  font-size: 14px;
+  padding: 0.5rem; 
+  border-radius: 10px; 
+  border:var(--troisiemecouleur) solid 1px;
+  margin: 0.25rem;
+}
+
+
+/* ajout Ulysse */
+.section-btn {
+  text-decoration: none; 
+  color:var(--troisiemecouleur);
+  font-family:'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+.section-btn:active {
+  text-decoration: none; 
+  color:var(--primary-color);
+  font-family:'Varela Round', sans-serif;
+  font-size: 16px;
+}
+ 
+.link_primary{
+  color:var(--primary-color);
+  font-family:'Varela Round', sans-serif;
+  font-size: 16px;
+}
