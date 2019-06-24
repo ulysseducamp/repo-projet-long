@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="top">
+        <div class="top Title_1">Bravo ! </div>
+    </div>
+
+    <div class=Title_2>Vous avez atteint votre objectif de lecture</div>
+    <img  class="image1" src="temps.png" alt="graphique du temps de lecture">
+   
+    <aside class="q-question">
+  <p>“D'après une étude réalisée en 2009 par l'université britannique de Sussex, la lecture constitue la façon la plus efficace pour lutter contre le stress.” levif.be </p>
+  
+</aside>
+
+<div class="clickr">Citation</div>
+    
+<a href="#"><button class="btn--primary btn--full--width">Continuer ma lecture</button></a>
+<a  class="lien--btn lien--fin" href="#">Arrêter ma lecture</a> 
+
+<script>
+    
+$('.q-question').hide();
+
+$('.clickr').click(function(){
+  $('.q-question').slideToggle();
+});
+
+</script>
+
+</body>
+</html>
