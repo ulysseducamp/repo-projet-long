@@ -8,7 +8,19 @@
       margin-top: 28px;
   }
 
-/*résultat*/
+/*page d'ouverture*/
+.container-logo{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 31vh;
+}
+
+.container-logo__logo{
+ width: 100%;
+}
+
+/*résultats*/
 
 .results-introduction{
   margin-bottom: 20px;
@@ -43,11 +55,10 @@
   width: 50%;
 }
 
-.tog-block__ic-tog{
+.tog-block__ic-tog-1, .tog-block__ic-tog-2, .tog-block__ic-tog-3{
   position: absolute;
-  right: 0;
-  top: 18px;
-
+  right: 10px;
+  top: 24px;
 }
 
 .Title_3_red {
@@ -56,10 +67,39 @@
     color: var(--primary-color);
 }
 
-.tog-block__hidden{
-  width: 100%;
+.tog-block__hidden-1{
+  display: none;
 }
 
+.is-visible-1{
+  display: block;
+}
+
+.tog-block__hidden-2{
+  display: none;
+}
+
+.is-visible-2{
+  display: block;
+}
+
+.tog-block__hidden-3{
+  display: none;
+}
+
+.is-visible-3{
+  display: block;
+}
+
+.tog-block__plus{
+  text-align: center;
+  display: block;
+  margin: 18px auto;
+}
+
+.tog-block__lire{
+  margin-bottom: 18px;
+}
 
 /* CHOIX DU MODE DE LECTURE */
 
